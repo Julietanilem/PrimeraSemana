@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SIX FLAGS MÉXICO</h1>
+    <p>Para obtener tus entradas debes llenar el siguiente formulario:</p>
+    <img src="https://img.asmedia.epimg.net/resizer/aFU4xbGhPztG6on-otYcnDWkVsU=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/YIYC7SQK5BJN5ONU4FUSJJXO4Q.jpg" alt="Imagen de Six flags"/><hr/>
+    <form action="./form1.php" method="post">
+        <fieldset>
+            <legend>Boletos de entrda</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Ingrese nombre(s)" required><br/><br/>
+            <label for="apellido">Apellido </label>
+            <input type="text" name="apellido" placeholder="Ingrese apellidos" required><br/><br/>
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" placeholder="Ingrese edad" required><br/><br/>
+            <label for="direccion">Dirección: </label>
+            <input type="text" name="direccion" placeholder="Ingrese dirección" required><br/><br/>
+            <label for="boletos">Número de boletos: </label>
+            <input type="number" name="boletos" placeholder="Ingrese el número de boletos" required><br/><br/>
+            <label for="tipob">Tipo de boletos: </label>
+            <select  name="tipob" required>
+                <option disabled>Seleccione el tipo de boletos:</option>
+                <option value="1">Flash Pass</option>
+                <option value="2">Normal</option>
+                <option value="3">VIP</option>
+                <option value="4">El que se sube a todo</option>
+                <option value="5">El que no se quiere subir a nada</option>
+            </select><br/><br/>
+            <button type="submit">Enviar </button> 
+            <button type="reset">Borrar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
+
+<centered></centered>
