@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas El Coral</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/f/f7/Logo_of_Grupo_Vidanta.jpg" type="image/" type="image/jpg">
+</head>
+<body>
+    <h1>Hotel Resort Nuevo Vallarta</h1>
+    <h2>¡Bienvenidxs a un destino paradisiaco!</h2>
+    <img src="https://www.vidanta.com/documents/34916/50120/Vidanta-nuveo-vallarta-the-grand-mayan-gallery-1.jpg/b22ea458-1d78-cca7-91ea-86c1c0ffd238?t=1508359892070" alt= "Hotel Vidanta en Nuevo Vallarta"/>
+    <p>Empieza a reservar tus próximas vacaciones junto al mar disfrutando de nuestro servicio de calidad y todas nuestras amenidades que ponemos a tu disposición</p>
+    <form>
+        <fieldset>
+            <legend>Datos de la reservación:</legend>
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" name="nombre" required ><br><br>
+
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="apellido" required ><br><br>
+
+            <label for="correo">Email:</label>
+            <input type="email" id="correo" name="correo" required ><br><br>
+
+            <label for="fechaLlegada">Fecha de recepción:</label>
+            <input type="date" id="fechaLlegada" name="fechaLlegada" required ><br><br>
+
+            <label for="fechaSalida">Fecha de salida:</label>
+            <input type="date" id="fechaSalida" name="fechaSalida" required ><br><br>
+
+            <label for="Telefono">Número de telefono</label>
+            <input type="number" id="Telefono" name="Telefono" required ><br><br>
+
+            <label for="cama">Tipo de cama:</label>
+            <select id="cama" name="cama">
+                <option disabled>Selecciona el tipo de cuarto:</option>
+                <option>Sencilla</option>
+                <option>Doble</option>
+                <option>2 camas dobles</option>
+                <option>2 camas sencillas</option>
+            </select><br><br>
+            
+            <label>Lugares de preferencia de habitación (selecciones todos los que le podían interesar)</label><br>
+            <input type="checkbox" id="plantab">
+            <label for="plantab">Planta baja</label><br>
+            <input type="checkbox" id="primer">
+            <label for="primer">Primer piso</label><br>
+            <input type="checkbox" id="segundo">
+            <label for="segundo">Segundo piso</label><br>
+            <input type="checkbox" id="terraza">
+            <label for="terraza">Terraza</label><br>
+            <input type="checkbox" id="vista">
+            <label for="vista">Vista al mar</label><br>
+            <input type="checkbox" id="restaurante">
+            <label for="restaurantes">Cerca de los restaurantes</label><br>
+            <input type="checkbox" id="salida">
+            <label for="salida">Cerca de la salida</label><br><br>
+            
+
+
+
+           <label for="comentarios">Comentarios adicioanles:</label><br>
+           <textarea id="comentarios" name="comentario" rows="10" cols="100"></textarea><br><br>
+           <button type="submit">Enviar</button>
+           <button type="reset">Borrar</button>
+
+
+
+        </fieldset>
+    </form>
+    <p>¡Gracias! Estamos ansiosos por recibirte</p>
+
+</body>
+</html>

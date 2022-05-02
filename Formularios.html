@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="https://wikieconomica.com/wp-content/uploads/2021/03/1.jpg" type="image/jpg">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Solicitud de empleo</legend>
+
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre"><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apelliidos" required><br><br>
+            <label for="Correo:">Corre:</label>  
+            <input type="email" id="Correo" required><br><br>
+            <label for ="edad">Edad: </label>
+            <input type="number" id="edad" required><br><br>
+            <label for="sexo">Sexo:</label>
+            <select disabled>
+                <option>Hombre</option>
+                <option>Mujer</option>
+                <option>Otro</option>
+                <option>Prefiero no especificar</option>
+            </select><br><br>
+            <label>Una pequeña descripción de ustedes:</label><br><br>
+            <textarea name="descripcion" rows="30" cols="10" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
